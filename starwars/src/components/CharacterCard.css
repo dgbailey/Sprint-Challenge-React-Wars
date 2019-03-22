@@ -7,5 +7,20 @@
     opacity: .75;
     
 
+
+
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding:2px;
+}
+
+.card-container:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 

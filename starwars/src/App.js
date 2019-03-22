@@ -40,6 +40,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <PageNav pagefunc={this.getCharacters} prev={this.state.prev } next={this.state.next}/>
         <CharacterList masterList={this.state.starwarsChars}/>
         <PageNav pagefunc={this.getCharacters} prev={this.state.prev } next={this.state.next}/>
       </div>
