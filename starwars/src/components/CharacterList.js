@@ -1,6 +1,9 @@
 import React from 'react';
 import CharacterCard from './CharacterCard';
 
+
+import './CharacterList.css';
+
 const CharacterList = (props) => {
     return (
         <div className = 'character-list-cont'>
