@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Helvetica;
 }
 .Header {
   color: #443e3e;
